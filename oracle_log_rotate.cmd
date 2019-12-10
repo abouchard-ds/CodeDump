@@ -7,8 +7,8 @@ SETLOCAL ENABLEEXTENSIONS
 :: This script is used to rotate Oracle's logs.
 :: All parameters are kept in the file, as variables.
 
-:: TODO: learn to use windows array so we may loop all logs folders
-::       in the same code. but since the system will be decom., may not have time for that.
+:: TODO: use windows array so we may loop all logs folders in the same code. but since 
+::       the system will be decom., may not have time for that.
 
 TITLE Oracle Logs Rotate
 
