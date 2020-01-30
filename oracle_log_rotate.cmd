@@ -1,7 +1,7 @@
 ::@ECHO OFF 
 SETLOCAL ENABLEEXTENSIONS
 
-:: Alexandre Bouchard <alexandre.bouchard@bell.ca>
+:: Alexandre Bouchard
 :: December 2019
 :: --------------------------------------------------
 :: This script is used to rotate Oracle's logs.
