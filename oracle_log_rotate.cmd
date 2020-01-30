@@ -43,9 +43,9 @@ if exist blabla\trace (
 	exit
 )
 
-if exist alert_prdsyn01.log (
-	move alert_01.log alert_01_%logdate%-%logtime%.log
-	zip -q -m "alert_01_%logdate%-%logtime%.zip" "alert_01_%logdate%-%logtime%.log"
+if exist alert_blabla01.log (
+	move alert_blabla01.log alert_blabla01_%logdate%-%logtime%.log
+	zip -q -m "alert_blabla01_%logdate%-%logtime%.zip" "alert_blabla01_%logdate%-%logtime%.log"
 ) else (
 	echo 'Logfile not found.'
 	exit
