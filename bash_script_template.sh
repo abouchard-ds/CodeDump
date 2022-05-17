@@ -1,8 +1,5 @@
 #!/bin/bash -
 # #!/usr/bin/env bash
-# source: https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang
-#-----------------------------------------------
-## DBA Toolbox library
 
 # Library Source
 # source $PATH/toolbox.sh
