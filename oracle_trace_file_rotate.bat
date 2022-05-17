@@ -1,8 +1,6 @@
 ::@ECHO OFF 
 SETLOCAL ENABLEEXTENSIONS
 
-:: Alexandre Bouchard
-:: January 2020
 :: --------------------------------------------------
 :: This script is used to zip and archive trace files.
 :: this does not follow best practices, only quick script.
@@ -17,7 +15,7 @@ SET logtime=%Now:~0,2%%Now:~3,2%
 :: FOR CLIENT TRACE FILES
 :: ---------------------------------
 :: mv all *.trc and *.trm to the folder
-cd D:\oracle\diag\clients\user_SYSTEM\host_number\trace\
+cd DRIVE:\oracle\diag\clients\user_SYSTEM\host_number\trace\
 
 rmdir traceFiles
 mkdir traceFiles
@@ -50,7 +48,7 @@ move "traceFiles_%logdate%-%logtime%.zip" "archives\traceFiles_%logdate%-%logtim
 :: ---------------------------------
 :: FOR DATABASE TRACE FILES
 :: ---------------------------------
-cd D:\oracle\diag\rdbms\INSTID\INSTID\trace
+cd DRIVE:\oracle\diag\rdbms\INSTID\INSTID\trace
 
 rmdir traceFiles
 mkdir traceFiles
