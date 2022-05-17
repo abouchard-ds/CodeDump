@@ -2,7 +2,6 @@
 #-----------------------------------------------
 ## DBA Toolbox library
 ## Librairie de fonctions bash pour DBA Oracle
-## alexandre.5.bouchard@hec.ca
 
 # Pour obtenir toute la documentation sur la librairie faire un
 # grep "#@" toolbox.sh
